@@ -1,0 +1,35 @@
+-------------------------------------------------------------------------------
+Test set: examples.ExamplesTest
+-------------------------------------------------------------------------------
+Tests run: 31, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 32.221 s <<< FAILURE! - in examples.ExamplesTest
+testAll[2][4]  Time elapsed: 0.821 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+status code was: 200, expected: 400, response time in milliseconds: 711, url: https://reqres.in/api/login, response: 
+{"token":"QpwL5tke4Pnpja7X4"}
+classpath:examples/users/login.feature:70
+
+testAll[2][8]  Time elapsed: 1.983 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+did not evaluate to 'true': karate.responseTime < 2000
+classpath:examples/users/login.feature:136
+
+testAll[3][7]  Time elapsed: 1.471 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+did not evaluate to 'true': karate.responseTime < 2000
+classpath:examples/users/regester.feature:124
+
+testAll[4][8]  Time elapsed: 1.739 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+did not evaluate to 'true': karate.responseTime < 2000
+classpath:examples/users/user_crud.feature:124
+
+testAll[5][6]  Time elapsed: 4.242 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+did not evaluate to 'true': karate.responseTime >= 3000
+classpath:examples/users/user_listing.feature:76
+
+testAll[5][7]  Time elapsed: 1.369 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+did not evaluate to 'true': karate.responseTime < 2000
+classpath:examples/users/user_listing.feature:84
+

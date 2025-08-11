@@ -1,0 +1,10 @@
+{
+    "baseUrl": "https://reqres.in/api",
+    "path":{
+        "user":"/users",
+        "login":"/login",
+        "register":"/register",
+        "logout":"/logout",
+        "delay":"delay"
+    }
+}
